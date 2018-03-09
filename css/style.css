@@ -1,0 +1,121 @@
+ *{
+
+  margin:0;
+  padding:0;
+  border:0;
+  box-sizing:border-box;
+
+}
+
+.ion-edit{
+  font-size: 30px;
+  margin: 20px;
+}
+
+/* alertBox {
+    position:relative;
+    width:300px;
+    min-height:100px;
+    margin-top:50px;
+    border:1px solid #666;
+    background-color:#fff;
+    background-repeat:no-repeat;
+    background-position:20px 30px;
+} */
+
+#delete{
+
+font-size: 30px;
+color: red;
+
+
+}
+
+#my-table{
+text-align: center;
+margin:  0 auto;
+width: 80%;
+
+
+}
+
+
+table{
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+
+}
+table td{
+border:1px solid #FF0000;
+  background: #F3F3F3;
+  font-weight: bold;
+  height: 15vh;
+
+
+}
+.myform{
+  margin: 0 auto;
+  text-align: center;
+  background: skyblue;
+  width: 80%;
+
+}
+
+
+input{
+  height: 30px;
+}
+input:focus{
+  background: rgb(149, 149, 149);
+}
+thead{
+
+}
+
+
+#add-button{
+font-size:  30px;
+color: green;
+vertical-align: middle;
+}
+
+.ion-edit{
+  cursor: pointer;
+
+}
+
+.ion-trash-a{
+  cursor: pointer;
+
+}
+input::-webkit-input-placeholder {
+    color: #999;
+}
+input:focus::-webkit-input-placeholder {
+    color: red;
+}
+
+/* Firefox < 19 */
+input:-moz-placeholder {
+    color: #999;
+}
+input:focus:-moz-placeholder {
+    color: red;
+}
+
+/* Firefox > 19 */
+input::-moz-placeholder {
+    color: #999;
+}
+input:focus::-moz-placeholder {
+    color: red;
+}
+
+/* Internet Explorer 10 */
+input:-ms-input-placeholder {
+    color: #999;
+}
+input:focus:-ms-input-placeholder {
+    color: red;
+}
